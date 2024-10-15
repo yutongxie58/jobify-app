@@ -1,27 +1,33 @@
 # Jobify App
 
-[Jobify App](https://jobify-app-r8s1.onrender.com) is a full-stack MERN application that allows users to manage job applications, track statuses, and more. This app provides a streamlined interface to handle the entire job application process, from creation to tracking, with secure user authentication and CRUD functionality.
+[Jobify App](https://jobify-app-r8s1.onrender.com) is a full-stack MERN application designed to help users efficiently manage and track their job applications. With secure user authentication, job CRUD operations, and a responsive UI, the app provides a seamless experience for users looking to organize their job search.
 
-## Live Demo
-Check out the live app: [Jobify App](https://jobify-app-r8s1.onrender.com)
+## 🚀 Live Demo
+👉 **[Try Jobify Live](https://jobify-app-r8s1.onrender.com)**
 
 ## Features
-- **Job Management:** Create, edit, delete, and track jobs.
-- **User Authentication:** Secure login and registration using JWT tokens.
-- **Dark Mode:** Toggle dark mode, stored via localStorage.
-- **Error Handling:** Real-time notifications using React Toastify.
-- **Responsive Design:** Mobile and desktop friendly.
+- **Job Management:** Easily create, edit, delete, and track job applications.
+- **User Authentication:** Secure login and registration using JWT.
+- **Dark Mode:** Toggle dark mode, with user preferences stored in localStorage.
+- **Real-time Notifications:** Error and success notifications via React Toastify.
+- **Responsive Design:** Mobile-friendly, built with styled-components.
 
 ## Screenshots
 
-### Dashboard
-![Dashboard Screenshot](link_to_screenshot)
+### Starter
+<img src="https://i.postimg.cc/CKFNr62Z/starter.png" width="800" alt="Jobify Starter Screenshot">
 
 ### Add Job
-![Add Job Screenshot](link_to_screenshot)
+<img src="https://i.postimg.cc/3JXfLpwc/add-job.png" width="800" alt="Jobify Add Job Screenshot">
 
-### Login
-![Login Screenshot](link_to_screenshot)
+### Job Listings
+<img src="https://i.postimg.cc/L5C5Rh4K/job-listings.png" width="800" alt="Jobify Job Listings Screenshot">
+
+### Job Statistics
+<img src="https://i.postimg.cc/5yNyZ8VS/job-stats.png" width="800" alt="Jobify Job Statistics Screenshot">
+
+### Profile Management
+<img src="https://i.postimg.cc/G3qHvgF7/profile.png" width="800" alt="Jobify Profile Management Screenshot">
 
 ## Tech Stack
 
@@ -38,9 +44,9 @@ Check out the live app: [Jobify App](https://jobify-app-r8s1.onrender.com)
 - **Express Validator** for validation
 
 ### Dev Tools:
-- **Concurrently, Nodemon** for local development
+- **Concurrently**, **Nodemon** for local development
 
-### Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -52,8 +58,8 @@ Check out the live app: [Jobify App](https://jobify-app-r8s1.onrender.com)
    npm run setup-project
    npm run dev
    ```
-The server runs at `http://localhost:5100`  
-The client runs at `http://localhost:5173`
+- The server runs at `http://localhost:5100`  
+- The client runs at `http://localhost:5173`
 
 ## API Endpoints
 
@@ -73,5 +79,5 @@ The client runs at `http://localhost:5173`
 | PATCH   | `/api/v1/jobs/:id`      | Update a job           |
 | DELETE  | `/api/v1/jobs/:id`      | Delete a job           |
 
-## Contributing
-Feel free to contribute! Fork the repo and submit a pull request.
+## 🤝 Contributing
+Contributions are welcome! Fork the repo, create a branch, and submit a pull request.
